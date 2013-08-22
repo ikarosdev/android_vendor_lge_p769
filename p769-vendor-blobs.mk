@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p769/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/p769/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/p769/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
-    vendor/lge/p769/proprietary/etc/firmware/BCM4330B1_002.001.003.0550.0000_TESTONLY_LGE_X3.hcd:system/etc/firmware/BCM4330B1_002.001.003.0550.0000_TESTONLY_LGE_X3.hcd \
+    vendor/lge/p769/proprietary/etc/firmware/BCM4330B1_002.001.003.0750.0865.hcd:system/etc/firmware/BCM4330B1_002.001.003.0750.0865.hcd \
     vendor/lge/p769/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p769/proprietary/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
     vendor/lge/p769/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
@@ -44,10 +44,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p769/proprietary/vendor/lib/libsrv_um_SGX540_120.so:system/vendor/lib/libsrv_um_SGX540_120.so \
     vendor/lge/p769/proprietary/vendor/lib/libusc_SGX540_120.so:system/vendor/lib/libusc_SGX540_120.so \
     vendor/lge/p769/proprietary/vendor/lib/libtf_crypto_sst.so:system/vendor/lib/libtf_crypto_sst.so \
+    vendor/lge/p769/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/lge/p769/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/p769/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
     vendor/lge/p769/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
     vendor/lge/p769/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
-    vendor/lge/p769/proprietary/vendor/bin/pvrsrvinit_SGX540_120:system/vendor/bin/pvrsrvinit_SGX540_120 \
+    vendor/lge/p769/proprietary/vendor/bin/pvrsrvctl_SGX540_120:system/vendor/bin/pvrsrvctl_SGX540_120 \
     vendor/lge/p769/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/lge/p769/proprietary/bin/sensord:system/bin/sensord \
     vendor/lge/p769/proprietary/bin/glgps:system/bin/glgps \
